@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    implementation("at.crowdware:sml-parser:0.1.0")
+    implementation("at.crowdware:sml:1.11")
 }
 ```
 
@@ -103,7 +103,7 @@ fun main() {
 ## 🧠 Projektstruktur
 
 ```
-sml-parser/
+sml/
  ├─ build.gradle.kts
  ├─ settings.gradle.kts
  ├─ src/commonMain/kotlin/sml/
@@ -146,4 +146,8 @@ SmlNode(name=Page, properties={id=StringValue(main), ...}, children=[...])
 
 ## 📄 Lizenz
 
-MIT License © 2025 CrowdWare / Art
+GPL3 License - see [LICENSE](LICENSE) file for details.
+
+
+**Made with ❤️ by [CrowdWare](https://crowdware.info)**  
+**Contact:** art@crowdware.info

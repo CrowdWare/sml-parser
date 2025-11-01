@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "at.crowdware" // change to your org
-version = "0.1.0"
+version = "1.11"
 
 kotlin {
     jvm()
